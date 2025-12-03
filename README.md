@@ -38,4 +38,4 @@ This landing page is designed to:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ebike-landing-page.git
+   git clone https://github.com/ibrahim-tumaini/ebike-landing-page.git
