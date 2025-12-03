@@ -1,0 +1,71 @@
+#header-img{
+  height: 80px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  padding: 100px 20px 50px;
+  text-align: center;
+}
+
+.feature-list,
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-item,
+.price-box {
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+#email {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+#submit {
+  padding: 10px 20px;
+}
+
+@media (max-width: 600px) {
+  #nav-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .feature-list,
+  .pricing-container {
+    flex-direction: column;
+  }
+}
